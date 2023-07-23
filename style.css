@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    background-image: url('bgs.png');
+    background-size: 70%;
+}
+.img_logo{
+    width: 50px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+nav{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.24);
+    position: sticky;
+    border: solid 1px;
+    border-bottom-left-radius: 10px;
+    
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.about{
+    margin-top: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about img{
+    width: 30%;
+    
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.082);
+}
+.h_text{
+    width: 50%;
+}
+.card{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 300px;
+}
