@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Document</title>
 </head>
 <body>
@@ -25,21 +26,116 @@
     <main>
         <section class="about" id="home">
             <div class="h_text">
-                <h2>Hi ! WELCOME TO MY PROFOLIO</h2>
+                <h1 class="abouttitle">About</h1>
+                <h3>Hi ! WELCOME TO MY PORTFOLIO</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Voluptatum praesentium in repudiandae 
                     expedita laboriosam dignissimos ipsa at consequuntur doloribus 
                     veritatis sunt similique, corrupti accusantium, impedit soluta 
                     ab numquam, sit rem!</p>
             </div>
+            
+            <div class="meimg">
             <img src="./me.png" alt="">
+            </div>
         </section>
-        <section class="Work" id="Work">
-            <div class="card">
-                <img src="./proj.webp" alt="">
-                <h4>Project 1</h4>
-                <p>project In progress and in the future you will find it</p>
-                <a href=""> here !</a>
+        <section class="work" id="Work">
+            <h2>WORK</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./proj.webp" alt="">
+                    <h4>Project 1</h4>
+                    <p>project In progress and in the future you will find it</p>
+                    <a href=""> here !</a>
+                </div>
+                <div class="card">
+                    <img src="./proj.webp" alt="">
+                    <h4>Project 2</h4>
+                    <p>project In progress and in the future you will find it</p>
+                    <a href=""> here !</a>
+                </div>
+                <div class="card">
+                    <img src="./proj.webp" alt="">
+                    <h4>Project 3</h4>
+                    <p>project In progress and in the future you will find it</p>
+                    <a href=""> here !</a>
+                </div>
+                <div class="card">
+                    <img src="./proj.webp" alt="">
+                    <h4>Project 4</h4>
+                    <p>project In progress and in the future you will find it</p>
+                    <a href=""> here !</a>
+                </div>
+                <div class="card">
+                    <img src="./proj.webp" alt="">
+                    <h4>Project 5</h4>
+                    <p>project In progress and in the future you will find it</p>
+                    <a href=""> here !</a>
+                </div>
+           </div>
+        </section>
+        <section id="resume" class="resume">
+            <div class="s_card">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="s_card">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            </div>
+        </section>
+        <section class="resume">
+            <h1>Resume</h1>
+            <div class="skillboard">
+                <span>html</span>
+                <div class="skillone">
+                    <div class="skillbar"></div>
+                </div>
+                
+                <span class="per">85%</span>
+            </div>
+            <div class="skillboard">
+                <span>css</span>
+                <div class="skillone">
+                    <div class="skillbar two"></div>
+                </div>
+                <span class="per">70%</span>
+            </div>
+            <div class="skillboard">
+                <span>JavaScript</span>
+                <div class="skillone">
+                    <div class="skillbar three"></div>
+                </div>
+                <span class="per">40%</span>
+            </div>
+            <div class="skillboard">
+                <span>NodeJS</span>
+                <div class="skillone">
+                    <div class="skillbar four"></div>
+                </div>
+                <span class="per">10%</span>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact_form">
+                <h2>You can Contact me using this form</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email">
+                    <label for="date">date</label>
+                    <input type="date" name="" id="date">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Discriptions here"></textarea>
+                    <input type="button" class="btn" value="Send">
+                </form>
+            </div>
+            <div class="contact_links">
+                <h2>Or use those links</h2>
+                <div classe="phone">
+                <span class="material-symbols-outlined">
+                    call 
+                    </span>
+                <a href="tel:0023804911"> +216 23 804 911</a>
+                </div>    
             </div>
         </section>
     </main>
