@@ -5,29 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <title>FROFOLIO</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
             <img src="./pic.jpg" alt="Logo" class="img_logo">
+            <h1>My profolio</h1>
         </div>
         <ul class="navbar">
-            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         </nav>
     </header>
     
     <main>
-        <section class="about" id="home">
+        <section class="about" id="about">
             <div class="h_text">
                 <h1 class="abouttitle">About</h1>
-                <h3>Hi ! WELCOME TO MY PORTFOLIO</h3>
+                <h3>Hi ! WELCOME TO MY PROFOLIO</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Voluptatum praesentium in repudiandae 
                     expedita laboriosam dignissimos ipsa at consequuntur doloribus 
@@ -39,7 +44,7 @@
             <img src="./me.png" alt="">
             </div>
         </section>
-        <section class="work" id="Work">
+        <section class="work" id="work">
             <h2>WORK</h2>
             <div class="cards">
                 <div class="card">
@@ -74,16 +79,9 @@
                 </div>
            </div>
         </section>
-        <section id="resume" class="resume">
-            <div class="s_card">
-                <i class="fa-brands fa-css3-alt"></i>
-            </div>
-            <div class="s_card">
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            </div>
-        </section>
-        <section class="resume">
+        <section class="resume" id="resume">
             <h1>Resume</h1>
+            <h3>(skills)</h3>
             <div class="skillboard">
                 <span>html</span>
                 <div class="skillone">
@@ -114,9 +112,10 @@
                 <span class="per">10%</span>
             </div>
         </section>
-        <section class="contact">
+        <h2 class="h_con">CONTACT</h2>
+        <section class="contact" id="contact">
             <div class="contact_form">
-                <h2>You can Contact me using this form</h2>
+                <h1>You can Contact me using this form</h1>
                 <form action="">
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Your Name">
@@ -135,9 +134,17 @@
                     call 
                     </span>
                 <a href="tel:0023804911"> +216 23 804 911</a>
-                </div>    
+                </div>
+                <p>linkdin accunt here</p>    
+                <p>githube accunt here</p>
+                <p>other links ...</p>
+                <p>other links ...</p>
+
             </div>
         </section>
     </main>
+    <footer>
+        <h4 class="f_text">Still under constraction</h4>
+    </footer>
 </body>
 </html>
