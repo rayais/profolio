@@ -3,8 +3,7 @@ body{
     margin: 0;
     background-size: 70%;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto','Playfair Display', sans-serif;
 }
 .img_logo{
     width: 50px;

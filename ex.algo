@@ -1,0 +1,21 @@
+ALGORITHM task1
+
+VAR
+    tab : ARRAY_OF type[20];[2];
+    i,j:INTEGER;
+    bol:BOOLEAN;
+BEGIN
+    For i from 0 to 19 do
+        for j from 0 to 1 do
+            write("donne le "j" element de tab num "i"")
+            read (tab[i][j])
+        end for
+    end for
+    for i from 1 to 20 do
+        if (tab[i][1]<tab[i+1][0])
+        then bol=false
+        else bol=true
+    end for
+    if bol then write("is not over lapped")
+    else write("is  overlapped")
+END
